@@ -1,4 +1,3 @@
-
 # import qrcode lib
 import qrcode
  
@@ -12,7 +11,6 @@ qr = qrcode.QRCode(version = 1,
  
 # Adding data to the instance 'qr'
 qr.add_data(data)
-
 qr.make(fit = True)
 
 # colour of qrcode
